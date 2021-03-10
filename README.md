@@ -1,5 +1,5 @@
 # netcpp
-This is a cpp library which tries to simple your daily work and makes C++ a little easy to use.
+This is my personal cpp library which tries to simple my daily work and makes C++ a little easy to use. It is really fun if you know how to use them. Below are some code segments to show the usage of some of the classes.
 
 # StreamReader
 
@@ -37,7 +37,7 @@ More samples about StreamReader you can see xml_reader.cpp or json.cpp, both of 
 
 # Buffer
 
-Buffer buffer(BufferSize);
+    Buffer buffer(BufferSize);
 
     MeasurementDriver* driver = MeasurementDriver::instance();
 
@@ -113,6 +113,6 @@ Buffer buffer(BufferSize);
 
         p.save("/path/to/xml/file");
 
-#More
-I will add more documents to explain how to use these library when I get time. It is really fun if you know how to use them
+# More
+I will add more documents later to explain how to use these library when I get time. Fow now I only have the linux implementations, will add win32 in the future.
 

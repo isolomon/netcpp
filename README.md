@@ -1,5 +1,5 @@
-# easycpp
-This is my personal cpp library which tries to simple my daily work and makes C++ a little easy to use. It is really fun if you know how to use them. Below are code segments to show the usage of some of the classes.
+# netcpp
+This is my personal cpp library which tries to simple my daily work and makes C++ a little easier to use. It is really fun if you know how to use it. Below are code segments to show the usage of some of the classes.
 
 # StreamReader
 
@@ -20,7 +20,7 @@ This is my personal cpp library which tries to simple my daily work and makes C+
                 int first = r.peek();
                 if (first == '[' || first < 0) break;
                 
-                if (first == '#' || first == ';' || first < 0)
+                if (first == '#' || first == ';')
                 {
                     r.moveToNextLine();
                     continue;
@@ -37,7 +37,7 @@ More samples about StreamReader you can see xml_reader.cpp or json.cpp, both of 
 
 # Buffer
 
-    Buffer buffer(BufferSize);
+    Buffer buffer(BufferSize); //188
 
     MeasurementDriver* driver = MeasurementDriver::instance();
 
@@ -114,5 +114,5 @@ More samples about StreamReader you can see xml_reader.cpp or json.cpp, both of 
         p.save("/path/to/xml/file");
 
 # More
-I will add more documents later to explain how to use these library when I get time. Fow now I only have the linux implementations, will add win32 in the future.
+I will add more document later to explain how to use the library when I get time. Fow now I only have the linux side implementation, will add win32 in the future.
 

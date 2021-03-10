@@ -1,5 +1,5 @@
-# netcpp
-This is my personal cpp library which tries to simple my daily work and makes C++ a little easy to use. It is really fun if you know how to use them. Below are some code segments to show the usage of some of the classes.
+# easycpp
+This is my personal cpp library which tries to simple my daily work and makes C++ a little easy to use. It is really fun if you know how to use them. Below are code segments to show the usage of some of the classes.
 
 # StreamReader
 
